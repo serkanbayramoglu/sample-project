@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     commands:
-        - nom install
+        - npm install
         - python -m pip3 install Flask
   build:
     commands:
